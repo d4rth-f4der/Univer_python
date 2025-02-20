@@ -1,6 +1,5 @@
 # Лабораторна робота 1, завдання 3 г)
-# указати значення виразів та їх тип
-#
+
 expression = 9.0 / 5.0
 print(expression)
 print(type(expression))
