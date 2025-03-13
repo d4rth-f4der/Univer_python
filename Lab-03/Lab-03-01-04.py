@@ -1,4 +1,5 @@
 # Лабораторна 3 завдання 1 (4)
+
 try:
     print(1, end="") # надрукується
     print(1 / 0, end="") # помилка, піде в ZeroDivisionError
