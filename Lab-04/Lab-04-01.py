@@ -7,4 +7,4 @@ def reverse_number(num: int, reversed_num: int = 0) -> int:
 
     return reverse_number(num // 10, reversed_num)
 
-print(reverse_number(12340))
+print(reverse_number(102340))

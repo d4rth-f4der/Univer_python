@@ -1,5 +1,5 @@
 # Lab-04-05
-def bisection_method(func, a: int, b: int, tolerance=1e-7, max_iterations=100):
+def bisection_method(func, a: int, b: int, tolerance=1e-15, max_iterations=100):
 
     if func(a) * func(b) >= 0:
         print("Помилка: Значення a та b мають бути з різними знаками")
@@ -29,5 +29,6 @@ upper_bound_x = 4
 root = bisection_method(my_function, lower_bound_x, upper_bound_x)
 
 if root is not None:
-    print(f"Наближений корінь функції (х для f(x) = 0)) на відрізку [{lower_bound_x}, {upper_bound_x}]: {root}")
+    print(f"Наближений корінь функції (х для f(x) = 0))"
+          f"на відрізку [{lower_bound_x}, {upper_bound_x}]: {root}")
     print(f"Значення функції в цій точці: {my_function(root)}")
