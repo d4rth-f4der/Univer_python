@@ -1,5 +1,7 @@
 # Лабораторна робота 5 завдання 1
 """
+Початковий код:
+
 radius = 2.56
 length = 2 * 3 * radius
 square = 3 * radius * radius
