@@ -1,5 +1,4 @@
 # Lab-06 Task 09
-import sys # Імпортуємо sys для можливості перевірки на EOF
 
 def input_list_of_n_different_ints(n: int) -> list[int]:
 
@@ -39,7 +38,8 @@ def input_list_of_n_different_ints(n: int) -> list[int]:
                 raise RuntimeError(f"Неуспішне введення: '{input_line}' не є цілим числом.")
 
         except EOFError:
-            raise RuntimeError(f"Введення завершено раніше, ніж потрібно. Введені елементи: {len(new_list)}.")
+            raise RuntimeError(f"Введення завершено раніше, ніж потрібно."
+                               f"Введені елементи: {len(new_list)}.")
         except Exception as e:
             raise RuntimeError(f"Виникла неочікувана помилка введення: {e}")
 

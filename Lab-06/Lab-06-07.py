@@ -12,7 +12,8 @@ def input_to_list_typed(element_type):
                 element = element_type(input_line)
                 new_list.append(element)
             except (ValueError, TypeError):
-                print(f"Попередження: '{input_line}' не може бути перетворено до типу {element_type.__name__} і було проігноровано.")
+                print(f"Попередження: '{input_line}' не може бути перетворено до типу"
+                      f"{element_type.__name__} і було проігноровано.")
                 pass
 
         except EOFError:

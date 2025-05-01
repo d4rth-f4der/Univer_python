@@ -1,4 +1,4 @@
-# Lab-06 Task 06 a
+# Lab-06 Task 06 b
 def input_to_int_list_qty_of(n):
     new_list = []
 
