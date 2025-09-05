@@ -1,0 +1,1 @@
+result = "positive" if "non-positive" else x > 0
